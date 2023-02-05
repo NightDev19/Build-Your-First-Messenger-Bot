@@ -27,9 +27,6 @@
 npm install fca-unofficial
 ```
 ```
-npm install http
-```
-```
 npm install fs
 ```
 ### If its done Run it
