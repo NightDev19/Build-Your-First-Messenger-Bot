@@ -6,7 +6,7 @@ const cd = {};
 const msgs = {};
 
 let prefix = '$';
-let admin = ['100081144393297'];
+let admin = ['100081144393297']; //Bruhhh this is a test uid
 
 
 login({ appState: JSON.parse(fs.readFileSync('appstate.json', 'utf8')) }, (err, api) => {
@@ -28,21 +28,9 @@ if(message == "Hi") {
 	api.sendMessage("Hello", event.threadID);
 }
 
-if(startsWith("Kei")) {
-    const axios = require("axios");
-    let text = message.substring(5);
-    let data = message.split(" ");
-    if (data.length < 2) {
-    	api.sendMessage(`⚠️Invalid Use Of Command!\n💡Usage: ${prefix}kei [ask]`, event.threadID);
-    } else {
-        let a = axios.get(`https://api.libyzxy0.repl.co/api/aiAsk?query=${text}`);
-        a.then(response => {
-        	api.sendMessage(response.data.result.message, event.threadID, event.messageID)
-  })
-    }
-}
-               
-               
+
+      
+            
                
     }   
   }   
