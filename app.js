@@ -1,9 +1,6 @@
 const fs = require("fs");
 const { keep_alive } = require("./keep_alive.js");
-const http = require('https');
 const login = require("fca-unofficial");
-const cd = {};
-const msgs = {};
 
 let prefix = '$';
 let admin = ['100081144393297']; //Bruhhh this is a test uid
@@ -26,11 +23,7 @@ if(message == "Hello") {
 } 
 if(message == "Hi") {
 	api.sendMessage("Hello", event.threadID);
-}
-
-
-      
-            
+}          
                
     }   
   }   
