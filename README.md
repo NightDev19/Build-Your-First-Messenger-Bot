@@ -23,7 +23,7 @@
 * Choose the repository you fork
 * And Click create project 
 * Setup the run commands, 'node app.js'
-* And run it
+
 
 #### If its done, go to shell and type this
 
