@@ -16,10 +16,14 @@
 
 
 ## Deploy it on Replit
+* Fork this repository
 * Create a account here https://replit.com
 * Create a new Repl
-* Select a Nodejs Template by Replit
-* Name your project
+* Click Select project on github
+* Choose the repository you fork
+* And Click create project 
+* Setup the run commands, 'node app.js'
+* And run it
 
 #### If its done, go to shell and type this
 
