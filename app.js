@@ -2,9 +2,7 @@ const fs = require("fs");
 const { keep_alive } = require("./keep_alive.js");
 const login = require("fca-unofficial");
 
-let prefix = '$';
-let admin = ['100081144393297']; //Bruhhh this is a test uid
-
+//Tangina mo 
 
 login({ appState: JSON.parse(fs.readFileSync('appstate.json', 'utf8')) }, (err, api) => {
     if (err) return console.error(err);
